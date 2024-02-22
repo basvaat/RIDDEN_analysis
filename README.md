@@ -8,7 +8,7 @@ This repository contain the analysis files related to the publication.
 The RIDDEN tool is available at [this repository](https://github.com/basvaat/RIDDEN_tool).
 
 ## Overview of the RIDDEN 
-![RIDDEN](paper_figure/Graphical_abstract600.png)
+![RIDDEN](paper_figure/Graphical_abstract600.jpeg)
 
 ### Analysis pipeline and notebook description
 - For construction of the RIDDEN model, the LINCS Level5 raw files were downloded from [clue.io/data] (sh, xpr, oe, cp, misc) (https://clue.io/data/CMap2020#LINCS2020)
