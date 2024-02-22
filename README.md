@@ -8,7 +8,7 @@ This repository contain the analysis files related to the publication.
 The RIDDEN tool is available at [this repository](https://github.com/basvaat/RIDDEN_tool).
 
 ## Overview of the RIDDEN 
-![RIDDEN](paper_figures/Graphical_abstract600.png)
+![RIDDEN](paper_figure/Graphical_abstract600.png)
 
 ### Analysis pipeline and notebook description
 - For construction of the RIDDEN model, the LINCS Level5 raw files were downloded from [clue.io/data] (sh, xpr, oe, cp, misc) (https://clue.io/data/CMap2020#LINCS2020)
@@ -52,9 +52,5 @@ Türei, D., Korcsmáros, T., & Saez-Rodriguez, J. (2016). OmniPath: guidelines a
 Türei, D., Valdeolivas, A., Gul, L., Palacio-Escat, N., Klein, M., Ivanova, O., Ölbei, M., Gábor, A., Theis, F., Módos, D., Korcsmáros, T., & Saez-Rodriguez, J. (2021). Integrated intra- and intercellular signaling knowledge for multicellular omics analysis. Molecular Systems Biology, 17(3), e9923.
 
 
-Zhang, Y., Narayanan, S. P., Mannan, R., Raskind, G., Wang, X., Vats, P., Su, F., Hosseini, N., Cao, X., Kumar-Sinha, C., Ellison, S. J., Giordano, T. J., Morgan, T. M., Pitchiaya, S., Alva, A., Mehra, R., Cieslik, M., Dhanasekaran, S. M., & Chinnaiyan, A. M. (2021). Single-cell analyses of renal cell cancers reveal insights into tumor microenvironment, cell of origin, and therapy response. Proceedings of the National Academy of Sciences of the United States of America, 118(24). https://doi.org/10.1073/pnas.2103240118
-
-
-
-
+Zhang, Y., Narayanan, S. P., Mannan, R., Raskind, G., Wang, X., Vats, P., Su, F., Hosseini, N., Cao, X., Kumar-Sinha, C., Ellison, S. J., Giordano, T. J., Morgan, T. M., Pitchiaya, S., Alva, A., Mehra, R., Cieslik, M., Dhanasekaran, S. M., & Chinnaiyan, A. M. (2021). Single-cell analyses of renal cell cancers reveal insights into tumor microenvironment, cell of origin, and therapy response. Proceedings of the National Academy of Sciences of the United States of America, 118(24). 
 
