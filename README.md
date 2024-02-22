@@ -11,8 +11,8 @@ The RIDDEN tool is available at [this repository](https://github.com/basvaat/RID
 ![RIDDEN](paper_figure/Graphical_abstract600.jpeg)
 
 ### Analysis pipeline and notebook description
-- For construction of the RIDDEN model, the LINCS Level5 raw files were downloded from [clue.io/data] (sh, xpr, oe, cp, misc) (https://clue.io/data/CMap2020#LINCS2020)
-- Filtering and calculating consensus signatures:
+- For construction of the RIDDEN model, the LINCS Level5 raw files were downloded from [clue.io/data](https://clue.io/data/CMap2020#LINCS2020) (sh, xpr, oe, cp, misc) 
+- __Filtering and calculating consensus signatures:__
   - Query ligand-receptor interactions from OmniPath: `src/curated_ligand_receptor_interactions_omnipath.R`
   - Create receptor ligand associtation matrix: `notebooks/filtering/create_receptor_ligand_association_matrix_from_omnipath.ipynb`
   - Create metadata for LINCS compound data: `notebooks/filtering/create_compound_target_signed_metadata.ipynb`
@@ -22,11 +22,11 @@ The RIDDEN tool is available at [this repository](https://github.com/basvaat/RID
   - Cross validation for filtering high quality receptors: `notebooks/benchmark/benchmark_against_other_lincs_perturbations_zscores.ipynb`
   - Create the model with high_quality receptors: `src/create_model.py` and `notebooks/model_creation/high_quality_receptors_model_z.ipynb`
 
-- Comparison with state-of-the-art method
+- __Comparison with state-of-the-art method__
   - CytoSig: `notebooks/benchmark/benchmark_rocaucs_cytosig.ipynb`
   - cytokine signalling activities were calculated as described in the CytoSig paper
 
-- Evaluation
+- __Evaluation__
   - Count receptor number per perturbation types `notebooks/qc/receptor_number_per_perttype.ipynb`
   - TF and receptor activities `notebooks/validation/biological_relevance/kegg_pathways_tfs_recs.ipynb`
   - Receptor type clustering `notebooks/validation/biological_relevance/receptor_type_clustering.ipynb`
@@ -36,7 +36,7 @@ The RIDDEN tool is available at [this repository](https://github.com/basvaat/RID
   - Single-cell renal cell carcinoma data processing `notebooks/validation/anti_pd1/single_cell/sc_rcc_evaluation.ipynb`
     - the data was downloaded from GEO (accession number: GSE159115)
 
-- Figures
+- __Figures__
   - `notebooks/figures.ipynb`
 
 
