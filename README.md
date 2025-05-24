@@ -7,6 +7,8 @@ To enable the inference of receptor activities, this tool combines the advantage
 This repository contain the analysis files related to the publication.
 The RIDDEN tool is available at [this repository](https://github.com/basvaat/RIDDEN_tool).
 
+The perturbation signatures of the receptors and the table of ligand-receptor interactions used to develop the RIDDEN model are available on Zenodo (DOI: https://doi.org/10.5281/zenodo.15127392).
+
 ## Overview of the RIDDEN 
 ![RIDDEN](paper_figure/Graphical_abstract600.jpeg)
 
